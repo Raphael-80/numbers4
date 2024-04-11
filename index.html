@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers Bukateria </title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="/website-pictures/logo.png" alt="logo">
+            </a>
+            <input type="checkbox" id="check" />
+            <label for="check" id="check-btn">
+                <i class="bx bx-menu" id="menu-icon"></i>
+            </label>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#service">Service</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#articles">Articles</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="video-display">
+        <video src="/website-pictures/video.mp4" autoplay loop muted></video>
+    </section>
+
+    <div class="service" id="service">
+        <a href="staffs.html">
+            <div class="card">
+                <i class="bx bxs-user"></i>
+                <h3>Staffs</h3>
+                <p>Meet our high skilled cooks that work everyday to bring you the best taste of every dishes.</p>
+            </div>
+        </a>
+
+        <a href="quality-food.html">
+            <div class="card">
+                <i class="bx bxs-bowl-hot"></i>
+                <h3>Quality Food</h3>
+                <p>Experience a whole new world of different dishes that will leave you craving for more.</p>
+            </div>
+        </a>
+
+        <a href="events.html">
+            <div class="card">
+                <i class="bx bxs-cart-add"></i>
+                <h3>Events</h3>
+                <p>Take a look at our various events held evey year. And partake in the one that suites you best.</p>
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="card">
+                <i class="bx bx-headphone"></i>
+                <h3>14/7 Service</h3>
+                <p>The cafeteria starts it's work hours as early as 8am to 10pm everyday of the week.</p>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="about" id="about">
+        <div class="about-left-side">
+            <img src="/website-pictures/party2.webp" alt="about-image" class="about-img1" />
+            <img src="/website-pictures/screenshot2.png" alt="about-image" class="about-img2" /> <br />
+            <img src="/website-pictures/jollof3.jpg" alt="about-image" class="about-img2" />
+            <img src="/website-pictures/open-mic-night.jpeg" alt="about-image" class="about-img1" />
+        </div>
+        <div class="about-right-side">
+            <h3>About Us <span></span></h3>
+            <h1>Welcome to <i class="fa fa-cutlery"></i> Numbers Bukateria</h1>
+            <p>A culinary haven that beckons patrons with its elegant ambiance and tantalizing fare. Nestled in
+                Redemmers University, its environment creates an inviting atmosphere for diners seeking an unforgettable
+                experience.
+                Numbers boasts an electric menu that showcases a symphony of flavours from around Nigeria.
+                <br />
+                <br />
+                Alongside its delectable cuisine, the restaurant offers a plethora of recreational activities to delight
+                guests of all ages.
+                Whether it's a spirited game of football, a fast-paced match of badminton or table tennis, a selection
+                of board games with an array of events from open mic
+                nights and lively parties. There's never a dull moments at Numbers.
+            </p>
+            <div class="flex counter">
+                <div class="flex">
+                    <span></span>
+                    <h2 class="counter-value">1</h2>
+                    <h4 class="h4-text">
+                        Years of <br />
+                        EXPERIENCE
+                    </h4>
+                </div>
+                <div class="flex">
+                    <span></span>
+                    <h2 class="counter-value">21</h2>
+                    <h4 class="h4-text">
+                        Popular <br />
+                        STAFFS
+                    </h4>
+                </div>
+            </div>
+            <a href="about.html">
+                <button>READ MORE</button>
+            </a>
+        </div>
+        </section>
+    </div>
+
+    <div class="latest_news">
+        <h3>Latest News</h3>
+        <div class="service" id="service">
+            <div class="card">
+                <img src="/website-pictures/open-mic-night.jpeg" alt="">
+                <h3>Open Mic Night</h3>
+                <p>Mark your calendars! Join us at Numbers for an electrifying Open Mic Night
+                    on Saturday, April 20th, from 7:00pm onwards. Bring your talent and a friend.
+                </p>
+            </div>
+            <div class="card">
+                <img src="/website-pictures/cute2-naruto-jtmjd4ifiqi7a48s.jpg" alt="">
+                <h3>Anime Fest</h3>
+                <p>Get ready for an epic Anime Fest at Numbers! Join us on Sunday, May 15th, from 6:00pm, for cosplay,
+                    screenings, and otaku camaraderie! let's have some fun.
+                </p>
+            </div>
+        </div>
+
+
+        <section class="team" id="articles">
+            <h2 class="h2-team">Articles</h2>
+            <div class="filter-options">
+                <button class="filter-option active" data-name="all">All</button>
+                <button class="filter-option" data-name="team1">Article 1</button>
+                <button class="filter-option" data-name="team2">Article 2</button>
+                <button class="filter-option" data-name="team3">Article 3</button>
+                <button class="filter-option" data-name="team4">Article 4</button>
+            </div>
+
+            <div class="gallery">
+                <div class="gallery-sides" data-name="team1">
+                    <div class="gl">
+                        <img src="/website-pictures/logo.png" alt="team1-img" />
+                    </div>
+                    <div class="gl">
+                        <h1>Thoughts About Numbers</h1>
+                        <h3><span>by</span> Prof. S. O. Akindele <span>VC of RUN</span></h3>
+                    </div>
+                    <div class="gl">
+                        <h5><i class="bx bx-time"></i>12-15 Jan 2023</h5>
+                        <h6><i class="bx bxs-map"></i>Redeemer's University, Ede</h6>
+                    </div>
+                    <div class="gl">
+                        <a href="article1.html">
+                            <button>VIEW MORE</button>
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="gallery-sides" data-name="team2">
+                    <div class="gl">
+                        <img src="/website-pictures/logo.png" alt="team1-img" />
+                    </div>
+                    <div class="gl">
+                        <h1>Thoughts About Numbers</h1>
+                        <h3><span>by</span> Mr ID <span>Owner of Numbers</span></h3>
+                    </div>
+                    <div class="gl">
+                        <h5><i class="bx bx-time"></i>12-15 Jan 2023</h5>
+                        <h6><i class="bx bxs-map"></i>Redeemer's University, Ede</h6>
+                    </div>
+                    <div class="gl">
+                        <a href="article2.html"> <button>
+                                VIEW MORE
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="gallery-sides" data-name="team3">
+                    <div class="gl">
+                        <img src="/website-pictures/logo.png" alt="team1-img" />
+                    </div>
+                    <div class="gl">
+                        <h1>Thoughts About Numbers</h1>
+                        <h3><span>by</span> Uzo 3 <span>President of RUNSA</span></h3>
+                    </div>
+                    <div class="gl">
+                        <h5><i class="bx bx-time"></i>12-15 Jan 2023</h5>
+                        <h6><i class="bx bxs-map"></i>Redeemer's University, Ede</h6>
+                    </div>
+                    <div class="gl">
+                        <a href="article3.html">
+                            <button>VIEW MORE</button>
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="gallery-sides" data-name="team4">
+                    <div class="gl">
+                        <img src="/website-pictures/logo.png" alt="team1-img" />
+                    </div>
+                    <div class="gl">
+                        <h1>Thoughts About Numbers</h1>
+                        <h3><span>by</span> Uzo 4 <span>Vice President of RUNSA</span></h3>
+                    </div>
+                    <div class="gl">
+                        <h5><i class="bx bx-time"></i>12-15 Jan 2023</h5>
+                        <h6><i class="bx bxs-map"></i>Redeemer's University, Ede</h6>
+                    </div>
+                    <div class="gl">
+                        <a href="article4.html">
+                            <button>VIEW MORE</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="photos" id="photos">
+            <div class="photos-left-side">
+                <img src="/website-pictures/A8D0ED8D-D02F-4119-B357-D6BC5511AB47-scaled.jpg" alt="about-image"
+                    class="about-img1" />
+                <img src="/website-pictures/assorted-meat-7.jpg" alt="about-image" class="about-img2" /> <br />
+                <img src="/website-pictures/image3.jpg" alt="about-image" class="about-img2" />
+                <img src="/website-pictures/image1.jpg" alt="about-image" class="about-img1" />
+            </div>
+            <div class="photos-right-side">
+                <h3>Introducing Snapshot showcase</h3>
+                <p>A immersive gallery capturing the essence of your memorable moments at Numbers! Share your best
+                    picture at numbers for a chance to be featured on our website, amplifying your experiences
+                    and becoming part of vibrant community narrative.
+                </p>
+                <!-- <h3>Share your best picture with us on:</h3>
+                <div class="social-links">
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-tiktok"></i>
+                </div> -->
+                <a href="gallery.html">
+                    <button>See More</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2 class="h2-team">CONTACT US</h2>
+            <div class="contact-sides">
+                <div class="contact-left-side">
+                    <h5>Address:</h5>
+                    <h1>Redemmer's University, Ede, Osun</h1>
+                    <br />
+                    <h5>Email:</h5>
+                    <h1>numbers@gmail.com</h1>
+                    <br />
+                    <h5>Website:</h5>
+                    <h1>www.numbers.com</h1>
+                    <br />
+                </div>
+
+                <div class="contact-right-side">
+                    <form>
+                        <input type="text" placeholder="First Name" required />
+                        <input type="text" placeholder="Last Name" required />
+                        <input type="email" placeholder="Email" class="top" />
+                        <input type="number" placeholder="Your Number" class="top" /> <br />
+                        <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message"
+                            required></textarea>
+                        <br />
+                        <br />
+                        <button>Send Message</button>
+                        <br />
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" id="footer">
+            <div class="d1">
+                <a href="#">
+                    <h1>Numbers</h1>
+                </a>
+                <p>
+                    To take a trivial example, which <br />
+                    of us ever undertake laborious <br />
+                    physical exercise, except to <br />
+                    obtain.
+                </p>
+                <div class="icon">
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-tiktok"></i>
+                </div>
+            </div>
+
+            <div class="d1">
+                <a href="#contact">
+                    <h1>Contact</h1>
+                </a>
+                <a href="#">Redemmer's University, Ede, Osun</a>
+                <a href="#">numbers@gmail.com</a>
+                <a href="#">www.numbers.com</a>
+            </div>
+
+            <div class="d1">
+                <a href="#">
+                    <h1>Partners</h1>
+                </a>
+                <a href="#">Run Alumini</a>
+                <a href="#">Aya-Oba Couture</a>
+                <a href="#">Forum Speaker Series</a>
+                <a href="#">Tedx Moscow Conference</a>
+            </div>
+
+            <div class="d1">
+                <a href="gallery.html">
+                    <h1 class="imgh1">Gallery</h1>
+                </a>
+                <img src="/website-pictures/logo.png" class="img" />
+                <img src="/website-pictures/screenshot2.png" class="img" />
+                <img src="/website-pictures/jollof3.jpg" class="img" /> <br />
+                <img src="/website-pictures/open-mic-night.jpeg" class="img" />
+                <img src="/website-pictures/cute2-naruto-jtmjd4ifiqi7a48s.jpg" class="img" />
+                <img src="/website-pictures/party2.webp" class="img" />
+            </div>
+        </div>
+        <div class="copyright">
+            <h1>
+                &copy; 2024 Numbers Bukateria || All Rights Reserved.
+            </h1>
+        </div>
+        <a href="#" class="top-arrow"><i class="bx bx-up-arrow-alt"></i></a>
+
+</body>
+<script src="/js/index.js"></script>
+
+</html>

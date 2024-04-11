@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers Bukateria : Gallery</title>
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="website-pictures/logo.png" alt="logo">
+            </a>
+            <input type="checkbox" id="check" />
+            <label for="check" id="check-btn">
+                <i class="bx bx-menu" id="menu-icon">NAV</i>
+            </label>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="about" id="about">
+        <!-- <div class="about-left-side">
+            <img src="website-pictures/360_F_234195598_AUqydFAzVmApm1reHhz3eRfrJGLBiqtj.jpg" alt="about-image"
+                class="about-img1" />
+            <img src="website-pictures/Efo-Riro-2-400x400.jpg" alt="about-image" class="about-img2" /> <br />
+            <img src="website-pictures/Egusi-2.jpg" alt="about-image" class="about-img2" />
+            <img src="website-pictures/pngtree-photo-of-kimchi-fried-rice-snack-hot-food-lifestyle-png-image_6849862.png" alt="about-image" class="about-img1" />
+        </div> -->
+        <div class="about-left-side">
+            <img src="/website-pictures/A8D0ED8D-D02F-4119-B357-D6BC5511AB47-scaled.jpg" alt="about-image"
+                class="about-img1" />
+            <img src="/website-pictures/assorted-meat-7.jpg" alt="about-image" class="about-img2" /> <br />
+            <img src="/website-pictures/image3.jpg" alt="about-image" class="about-img2" />
+            <img src="/website-pictures/image1.jpg" alt="about-image" class="about-img1" />
+        </div>
+        <div class="about-right-side">
+            <h3>Numbers Gallery <span></span></h3>
+            <h1>Taste & Moments Blend</h1>
+            <p>Step into a visual feast at Numbers' gallery, where culinary artistry meets captivating imagery. Explore
+                a vibrant showcase of delectable dishes,
+                enchanting ambiance, and joyful moments captured within our walls. Immerse yourself in a gallery that
+                celebrates the essence of Numbers, inviting you to
+                experience the warmth and excitement of our dining haven.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Gallery</h1>
+        <div class="image-container">
+            <img src="website-pictures/image1.jpg" onclick="openFullImg(this.src)">
+            <img src="website-pictures/image2.jpg" onclick="openFullImg(this.src)">
+            <img src="website-pictures/image3.jpg" onclick="openFullImg(this.src)">
+            <img src="website-pictures/image4.jpg" onclick="openFullImg(this.src)">
+            <img src="images/image19.jpg" onclick="openFullImg(this.src)">
+            <img src="website-pictures/image2.jpg" onclick="openFullImg(this.src)">
+            <img src="website-pictures/image3.jpg" onclick="openFullImg(this.src)">
+            <img src="website-pictures/image4.jpg" onclick="openFullImg(this.src)">
+            <img src="website-pictures/image3.jpg" onclick="openFullImg(this.src)">
+        </div>
+
+        <div class="full-img" id="fullImgBox">
+            <img src="website-pictures/image1.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Pitures of the week</h1>
+        <div class="image-container">
+            <img src="images/image14.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image9.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image7.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image4.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image15.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image17.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image19.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image22.jpg" alt="" onclick="openFullImg(this.src)">
+            <img src="images/image23.jpg" alt="" onclick="openFullImg(this.src)">
+
+        </div>
+    </div>
+<!-- 
+    <div class="pictures_section">
+        <h2 class="title">Photos of the week</h2>
+        <div class="pictures-container">
+            <div class="picture" data-name="p-1">
+                <img src="website-pictures/image1.jpg" alt="">
+                <h3>Picture by Ini</h3>
+                <p>Socials : <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-tiktok"></i></p>
+                <button>See More</button>
+            </div>
+            <div class="picture" data-name="p-2">
+                <img src="website-pictures/image2.jpg" alt="">
+                <h3>Photo by Ini</h3>
+                <p>Socials : <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-tiktok"></i></p>
+                <button>See More</button>
+            </div>
+            <div class="picture" data-name="p-3">
+                <img src="website-pictures/image3.jpg" alt="">
+                <h3>Photo by Ini</h3>
+                <p>Socials : <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-tiktok"></i></p>
+                <button>See More</button>
+            </div>
+            <div class="picture" data-name="p-4">
+                <img src="website-pictures/image4.jpg" alt="">
+                <h3>Photo by Ini</h3>
+                <p>Socials : <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-tiktok"></i></p>
+                <button>See More</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div class="picture-preview">
+        <div class="preview" data-target="p-1">
+            <img src="website-pictures/image1.jpg" alt="">
+            <i id="icon-close" class="bx bx-close">X</i>
+        </div>
+        <div class="preview" data-target="p-2">
+            <img src="website-pictures/image2.jpg" alt="">
+            <i id="icon-close" class="bx bx-close">X</i>
+        </div>
+        <div class="preview" data-target="p-3">
+            <img src="website-pictures/image3.jpg" alt="">
+            <i id="icon-close" class="bx bx-close">X</i>
+        </div>
+        <div class="preview" data-target="p-4">
+            <img src="website-pictures/image4.jpg" alt="">
+            <i id="icon-close" class="bx bx-close">X</i>
+        </div>
+    </div> -->
+
+    </div>
+
+    <div class="footer" id="footer">
+        <div class="d1">
+            <a href="index.html">
+                <h1>Numbers</h1>
+            </a>
+            <p>
+                To take a trivial example, which <br />
+                of us ever undertake laborious <br />
+                physical exercise, except to <br />
+                obtain.
+            </p>
+            <div class="icon">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-tiktok"></i>
+            </div>
+        </div>
+
+        <div class="d1">
+            <a href="contact.html">
+                <h1>Contact</h1>
+            </a>
+            <a href="#">Redemmer's University, Ede, Osun</a>
+            <a href="#">numbers@gmail.com</a>
+            <a href="#">www.numbers.com</a>
+        </div>
+
+        <div class="d1">
+            <a href="#">
+                <h1>Partners</h1>
+            </a>
+            <a href="#">Run Alumini</a>
+            <a href="#">Aya-Oba Couture</a>
+            <a href="#">Forum Speaker Series</a>
+            <a href="#">Tedx Moscow Conference</a>
+        </div>
+
+        <div class="d1">
+            <a href="gallery.html">
+                <h1 class="imgh1">Gallery</h1>
+            </a>
+            <img src="website-pictures/logo.png" class="img" />
+            <img src="website-pictures/screenshot2.png" class="img" />
+            <img src="website-pictures/jollof3.jpg" class="img" /> <br />
+            <img src="website-pictures/open-mic-night.jpeg" class="img" />
+            <img src="website-pictures/cute2-naruto-jtmjd4ifiqi7a48s.jpg" class="img" />
+            <img src="website-pictures/party2.webp" class="img" />
+        </div>
+    </div>
+    <div class="copyright">
+        <h1>
+            &copy; 2024 Numbers Bukateria || All Rights Reserved.
+        </h1>
+    </div>
+    <a href="#" class="top-arrow"><i class="bx bx-up-arrow-alt"></i></a>
+
+</body>
+<script src="js/gallery.js"></script>
+</html>
